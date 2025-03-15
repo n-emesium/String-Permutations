@@ -1,7 +1,7 @@
 #include "stack.h"
 
 
-int mlen(char *c) { //accounts for \0
+int mlen(char *c) { //does account for \0
     if (c == NULL) {
         return -1;
     }
